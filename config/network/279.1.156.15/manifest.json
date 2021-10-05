@@ -1,8 +1,8 @@
 {
-    "serverAddress": "279.1.156.15",
-    "serverName": "Vision Tech Inc.",
+    "serverAddress": "gaming",
+    "serverName": "gaming",
     "iconName": "vision.svg",
-    "terminalID": "vtech",
+    "terminalID": "gaming",
     "defaultUser": {
         "userId": "user",
         "password": "",
