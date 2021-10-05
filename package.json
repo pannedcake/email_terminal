@@ -1,0 +1,25 @@
+{
+  "name": "email_terminal",
+  "version": "1.0.0",
+  "description": "![Email Terminal Gif](docs/email_terminal.gif)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pannedcake/email_terminal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pannedcake/email_terminal/issues"
+  },
+  "homepage": "https://github.com/pannedcake/email_terminal#readme",
+  "dependencies": {
+    "http-server": "^13.0.2"
+  }
+}
