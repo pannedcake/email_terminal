@@ -1,13 +1,13 @@
 {
-    "year": "2021",
-    "serverAddress": "SCPdatabase4d",
-    "serverName": "Node Y56 Intranet",
-    "iconName": "Moon-icon.png",
-    "terminalID": "Power Main c56",
+    "year": "2412",
+    "serverAddress": "Home",
+    "serverName": "Personal Database supplied by Kanex Co.",
+    "iconName": "Homeicon.png",
+    "terminalID": "home",
     "defaultUser": {
         "userId": "user",
-        "password": "",
-        "userName": "anonymous"
+        "password": "user",
+        "userName": "loginrequired"
     },
     "randomSeed": true,
     
