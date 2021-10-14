@@ -3,7 +3,7 @@
     "serverAddress": "Home",
     "serverName": "Personal Database supplied by Kanex Co.",
     "iconName": "Homeicon.png",
-    "terminalID": "home",
+    "terminalID": "Home",
     "defaultUser": {
         "userId": "user",
         "password": "user",
