@@ -1,0 +1,14 @@
+{
+  "year": "2021",
+  "serverAddress": "SCPdatabase4d",
+  "serverName": "Node Y56 Intranet",
+  "iconName": "Moon-icon.png",
+  "terminalID": "Power Main c56",
+  "defaultUser": {
+    "userId": "user",
+    "password": "",
+    "userName": "anonymous"
+  },
+  "randomSeed": true,
+  "latestKernel": true
+}
