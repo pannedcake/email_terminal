@@ -166,7 +166,7 @@ kernel.init = function(cmdLineContainer, outputContainer) {
 			'clear', 'date', 'echo', 'help', 'login', 'mail', 'read', 'ping', 'telnet'
 		]
 
-		$.get("config/network/localhost/manifest.json", function(configuration) {
+		$.get("config/network/Home/manifest.json", function(configuration) {
 			serverDatabase = configuration
 			date_final = `${date.getDate()}/${date.getMonth()+1}/${serverDatabase.year}`;
 			kernel.getDatabases()
