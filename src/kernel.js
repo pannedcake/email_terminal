@@ -217,7 +217,7 @@ var system = {
 
 	date: function() {
 		return new Promise(function(resolve, reject) {
-			resolve(String(date))
+      resolve(date_final);
 		})
 	},
 
@@ -266,18 +266,16 @@ var system = {
 			if (args[0] == 'read') {
 				resolve([
 					`Usage:`,
-					`> read x`,
-					`If you're logged in you can read your mail messages if any.`
+					`> read email_number`,
+					`If you're logged in you can read the email for the corresponding email_number`
 				])
 			}
 			if (args[0] == 'telnet') {
 				resolve([
 					`Usage:`,
 					`> telnet address`,
-					`> telnet address@password`,
 					`You can connect to a valid address to access a specific server if the server is at internet.`,
-					`Intranet servers can only be accessed locally.`,
-					`You may need a password if it isn't a public server.`
+					`Intranet servers can only be accessed locally.`
 				])
 			}
 			if (args[0] == 'date') {
