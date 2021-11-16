@@ -163,7 +163,7 @@ kernel.init = function(cmdLineContainer, outputContainer) {
 		date = new Date()
 
 		CMDS_ = [
-			'clear', 'date', 'echo', 'help', 'login', 'mail', 'read', 'ping', 'telnet'
+			'clear', 'date', 'help', 'login', 'mail', 'read', 'ping', 'telnet'
 		]
 
 		$.get("config/network/Home/manifest.json", function(configuration) {
@@ -221,12 +221,6 @@ var system = {
 		})
 	},
 
-	echo: function(args) {
-		return new Promise(function(resolve, reject) {
-			resolve(args.join(' '))
-		})
-	},
-
 	bar_exe: function() {
 		return new Promise(function(resolve, reject) {
 			resolve(`foobar.exe`)
@@ -247,13 +241,6 @@ var system = {
 					`Usage:`,
 					`> clear`,
 					`The clear command will completely wipeout the entire screen, but it will not affect the history or whatever have been made into the terminal.`
-				])
-			}
-			if (args[0] == 'echo') {
-				resolve([
-					`Usage:`,
-					`> echo args`,
-					`The echo command will print args into terminal.`
 				])
 			}
 			if (args[0] == 'login') {

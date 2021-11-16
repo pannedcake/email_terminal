@@ -15,7 +15,7 @@
         "from": "Josephus A",
         "to": ["vent"],
         "title": "Restart",
-        "body": "To restart the Vents or shut them off, simply disconnect the green wire for gods sake. Do your job or get fired. Honestly. ./assets/fbi.png"
+        "body": "To restart the Vents or shut them off, simply disconnect the green wire for gods sake. Do your job or get fired. Honestly.\n ./config/network/sample/fbi.png"
     },
     {
         "from": "EMERGENCYCOMS",
